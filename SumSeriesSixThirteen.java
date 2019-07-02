@@ -6,11 +6,7 @@ public class SumSeriesSixThirteen {
         generateTable(20);
     }
 
-    public static double m(int i){
-        return (double)i / (i + 1);
-    }
-
-    public static double m2(int n){
+    public static double m(int n){
         double result = 0;
         for (int i = 1; i <= n; i++){
             result += (double)i / (i + 1);
@@ -22,7 +18,7 @@ public class SumSeriesSixThirteen {
         System.out.println("i   m(i)");
         System.out.println("--------");
         for(int i = 1; i <= n; i++){
-            System.out.println(i + "\t" + String.format("%.4f", m2(i)));
+            System.out.println(i + "\t" + String.format("%.4f", m(i)));
         }
     }
 }
