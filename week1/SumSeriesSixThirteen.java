@@ -1,4 +1,4 @@
-package java_bits;
+package java_bits.week1;
 
 public class SumSeriesSixThirteen {
 
